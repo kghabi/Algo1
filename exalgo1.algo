@@ -1,0 +1,25 @@
+ALGORITHM alg1
+VAR
+    carac:STRING;//phrase
+    nb_sp:=0;//nombre des spaces
+    nb_voyelles:=0; //nombre des voyelles
+    nb_carac:=0;// nombre caracteres
+    c: CHAR;
+BEGIN
+    write('tapper une phrase qui determine par .');
+    read(carac)
+    WHILE (carac<>'.') DO
+        FOR i FROM 0 TO carac.length-1 STEP i++  name : type := value;
+            IF (c=" ") THEN
+                nb_sp:=nb_sp+1;
+                else_if (c="a") or (c="e") or (c="y") or (c="u") or (c="o") or (c:="i") THEN
+                nb_voyelles:=nb_voyelles+1;
+                Else nb_carac:=nb_carac+1;
+            END
+        END_FOR
+    END_WHILE
+    write(nb_voyelles)
+    write(nb_carac)
+    write('nombre des mots',nb_sp)
+
+END
