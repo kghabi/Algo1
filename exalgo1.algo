@@ -9,7 +9,7 @@ BEGIN
     write('tapper une phrase qui determine par .');
     read(carac)
     WHILE (carac<>'.') DO
-        FOR i FROM 0 TO carac.length-1 STEP i++  name : type := value;
+        FOR i FROM 0 TO carac.length-1 STEP 1 DO
             IF (c=" ") THEN
                 nb_sp:=nb_sp+1;
                 else_if (c="a") or (c="e") or (c="y") or (c="u") or (c="o") or (c:="i") THEN
